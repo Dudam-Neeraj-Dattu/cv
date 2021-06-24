@@ -1,0 +1,164 @@
+<!-- here we use table for having our content beside our photo and many more-->
+
+<!DOCTYPE html> <!-- this tells the document type that is the latest version of HTML -->
+<html lang="en" dir="ltr"> <!-- this html tag shows to the browser that the code inside these tags is html code -->
+  <head>
+    <meta charset="utf-8"> <!-- this meta tag contains various elements like here charset,... this meta tag provides additional info to the browser about this web page -->
+                           <!-- here utf-8 sends info the browser that the characters in this page are all encoded using utf-8 encoding system -->
+                           <!-- www.unicode-table.com this website has all the characters that we need in utf-8 encoding, we can even put emojis by copy paste from this site -->
+                           <!-- the description element in meta tag gives the text about the website in the search engine -->
+    <title>Neeraj Dattu's Personal Site</title> <!-- this tells the browser to show what title should be on tabs -->
+  </head>
+  <body>
+    <table cellspacing='20'>
+      <tr>
+        <td><img src="photo.jpg" alt="Neeraj Dattu's Profile Picture"> <!-- the alt tag here shows the message written in it, to the browser if the link of image is not working --></td>
+        <td><h1>Dudam Neeraj Dattu</h1>
+        <p><em>Student at National Institute of Technology Warangal</em></p>
+        <p>I am graduating from NIT Warangal in 2023 holding Bachelor's degree in Metallurgical and Material Science Engineering. I like making stuff online and learning new stuff online through coursera, udemy etc...</p>
+        <p><a href="contact_details.html">Contact information</a></p> <!-- this anchor tag hyperlinks another html file in the local pc --></td>
+      </tr>
+    </table>
+
+
+    <hr>
+    <!-- the code from below is the same code as in index.html  -->
+    <!-- lists -->
+
+    <h3>Education</h3>
+    <ul> <!-- unordered list which gives bullet points -->
+      <li>National Institute of Technology Warangal</li>
+      <ul>
+        <li><em>Degree: </em>Bachelor of Technology</li>
+        <li><em>Batch: </em>2019 - 2023</li>
+        <li><em>Branch: </em>Metallurgical and Materials Engineering</li>
+        <li><em>CGPA: </em>8.62</li>
+        <li><a href="https://www.nitw.ac.in/">View College information here</a></li> <!-- the anchor 'a' tag helps us to give a hyperlink or hypertext, that takes to other html page when we click on it -->
+        <br>
+      </ul>
+      <li>Narayana Junior College</li>
+      <ul>
+        <li><em>Year of passing: </em>2019</li>
+        <li><em>Study: </em>Intermediate</li>
+        <li><em>Marks: </em>987 / 1000</li>
+        <li>Exams</li>
+        <ul>
+          <li>Jee mains</li>
+          <ul>
+            <li><em>percentile: </em>97.2</li>
+            <li><em>Rank: </em>7475 in OBC Category</li>
+          </ul>
+          <li>TS EAMCET</li>
+          <ul>
+            <li><em>Rank: </em>1024</li>
+          </ul>
+        </ul>
+      </ul>
+      <br>
+      <li>JSM High School</li>
+      <ul>
+        <li><em>Year of passing: </em>2017</li>
+        <li><em>SSC: </em>10 / 10 GPA</li>
+      </ul>
+    </ul>
+    <!-- We can also make ordered list by using <ol> ... </ol> and <li> ... </li> elements, that give 1,2,3...ordering and also we can get i, ii, iii ... ordering by mentioning <ol type = 'i'> .. </ol> -->
+    <hr>
+
+    <h3>My Courses and Certifications</h3>
+    <ul>
+      <li>Programming for Everybody (Getting started with python)</li>
+      <ul>
+        <li><em>Platfrom: </em>Coursera</li>
+        <li><a href="https://www.coursera.org/account/accomplishments/certificate/89GUQ8HGSKT8">See Credentials</a></li>
+        <!-- <li><a download href="Programming for Everybody (Getting Started with Python).pdf">Download my certificate</a></li> -->
+      </ul>
+      <li>Python Data Structures</li>
+      <ul>
+        <li><em>Platform: </em>Coursera</li>
+        <li><a href="https://www.coursera.org/account/accomplishments/certificate/ULX3XXMJ3KDB">See Credentials</a></li>
+        <!-- <li><a download href="Python Data structures.pdf">Download my certificate</a></li> -->
+      </ul>
+      <li>Java</li>
+      <ul>
+        <li><em>Platform: </em>Udemy</li>
+        <li><a href="java.jpg">See Credentials</a></li>
+      </ul>
+    </ul>
+    <hr>
+    <h3>Achievements</h3>
+    <ol>
+      <li>TS Polycet Entrance Exam State Topper Award</li>
+      <li>SSC Topper Award</li>
+      <li>Srinivasa Ramanujan Maths olympiad state topper and district topper award</li>
+      <li>Abacus school topper award</li>
+    </ol>
+    <hr>
+
+    <!-- tables -->
+    <h3>Experience</h3>
+    <p>Since I have no experience i'll be writing my student experience</p>
+    <table border="1"> <!-- table tag with border size 1px -->
+      <thead> <!-- table head tag, where the header elements will be printed in bold  -->
+        <tr> <!-- table row -->
+          <th>S.no</th> <!-- these are the header elements that will be printed in bold -->
+          <th>Role</th>
+          <th>Institute/ company/ organisation</th>
+        </tr>
+      </thead>
+      <tbody> <!-- the body where the main elements will be added -->
+        <tr>
+          <td>1</td> <!-- table data that will be printed in row wise as it is in table row tr tag -->
+          <td>Student</td>
+          <td>NIT Warangal</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Student</td>
+          <td>Narayana Junior College</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Student</td>
+          <td>JSM High School</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- the code upto here is the same as in index.html -->
+    <!-- the code below is another type of skill where we add our expertise in them like a table -->
+    <hr>
+    <h3>My Skills</h3>
+    <table cellspacing='10'>
+      <thead>
+        <th>Skill</th>
+        <th>My Rating</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>C</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>C++</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Java</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>⭐⭐</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+</html>
